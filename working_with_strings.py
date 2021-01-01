@@ -1,0 +1,17 @@
+
+phrase = "Dharmik Pajwani"
+print("Dharmik Pajwani")
+print("Dharmik\nPajwani")
+print("Dharmik\"Pajwani")
+print("Dharmik\Pajwani")
+print(phrase + " is cool")
+print(phrase.lower())
+print(phrase.upper())
+print(phrase.isupper())
+print(phrase.upper().isupper())
+print(len(phrase))
+print(phrase[0])
+print(phrase.index("Pajw"))
+print(phrase.index("m"))
+# print(phrase.index("o"))
+print(phrase.replace("Dharmik", "Paresh"))
